@@ -22,13 +22,11 @@
 %% parameter
 mu = 1; lmd = 1;                    % mu/lmd: lame constant;  This setting is equivalent to (poisson ratio) nu = 1/4; (Young's modulus) E = 1;
 everystep = 1;                      % reinitialize every ? step 
-%sigma  = 0.0;                       % always zero for BC
 beta   =2.5;                        % control the amplitude of the nonlinear velocity in G(z)
 eee = 3;                            %ellipticity coefficient in velocity distribution; eee=1 is isotropic circular symmetry
 K  = 3;                            % amplitute used in computing the self-stress of Cell. 
 lambda = -30;
 gamma  = 0.8;
-%a = 1;                               % the radius of circular cells
 h = 1/16;                             % mesh size in physical domain partition
 %% %%%%%%%%%%%%% parameters used in regularization and reinitialization of level set function
 r    = 3.5;                              % regularization ratio 
